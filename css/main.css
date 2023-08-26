@@ -1,0 +1,261 @@
+@charset "UTF-8";
+/*colores de variables*/ /*bordes*/
+/*padding*/
+/*display */
+/*alineacion*/
+nav {
+  font-size: large;
+  color: brown;
+  cursor: pointer;
+  transition: 5s;
+}
+
+body {
+  background-color: white;
+  color: black;
+  background-size: cover;
+}
+
+html {
+  font-size: 18px;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif ques;
+}
+
+h1 {
+  font-size: xx-large;
+  color: black;
+  background-color: red;
+  text-align: center;
+  padding-top: 1rem;
+}
+
+h2 {
+  color: black;
+  font-size: xx-large;
+  background-color: red;
+}
+
+h3 {
+  color: black;
+  background-color: red;
+}
+
+h4 {
+  color: black;
+}
+
+h5 {
+  text-align: center;
+  padding: 5px;
+}
+
+h6 {
+  text-align: center;
+  padding: 5px;
+  padding-top: 5px;
+  background-color: red;
+}
+
+h1 ul li {
+  /*todos las paginas llevan este elemento de navegacion*/
+  font-size: large;
+  line-height: 50%;
+  font-style: italic;
+  color: black;
+}
+
+/*aqui va ubicado el css del archivo index*/
+.container {
+  /* se aplica a todas las hojas */
+  font-size: 20px;
+  background-color: white;
+  color: black;
+  text-align: center;
+  transition: 1500ms;
+  border: 2px solid rgb(10, 7, 5);
+  overflow: hidden;
+}
+
+.container:hover {
+  /* se aplica a todas las hojas */
+  font-size: 20px;
+  background-color: white;
+  color: Red;
+  transform: scale(80%);
+  text-align: center;
+  border: 2px solid rgb(10, 7, 5);
+  overflow: hidden;
+}
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+b p {
+  /* este texto va en negrita  */
+  text-align: center;
+}
+
+div columna1 {
+  float: left;
+  width: 600px;
+  height: 600px;
+  margin-right: 1em;
+}
+
+.galeria {
+  display: flex;
+  flex-flow: wrap;
+  justify-content: center;
+}
+
+.galeria img {
+  /* diseño se aplica a las imagenes de la galeria */
+  max-width: 400px;
+  padding: 1rem;
+}
+
+p {
+  display: inline-block;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+.inicio {
+  display: flex;
+  flex-flow: wrap-reverse;
+  padding: 1rem;
+}
+
+.col {
+  border: 2px solid rgb(10, 7, 5);
+}
+
+img {
+  display: block;
+  margin: auto;
+}
+
+.inicio img {
+  max-width: 300px;
+  padding: 1rem;
+}
+
+ul li {
+  text-align: center;
+  list-style: none;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  grid-column-gap: 10px;
+  grid-row-gap: 10px;
+}
+
+@keyframes mianimacion {
+  0% {
+    background: white;
+    left: 125px;
+    overflow: hidden;
+  }
+  100% {
+    background: white;
+    left: 1250px;
+    overflow: hidden;
+  }
+}
+#milogo {
+  width: 150px;
+  height: 150px;
+  animation-name: mianimacion;
+  animation-duration: 10s;
+  position: relative;
+  animation-direction: reverse;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease;
+  margin-top: 1rem;
+  overflow: hidden;
+}
+
+.gridcontainer {
+  overflow: hidden;
+}
+
+.contact_form {
+  width: 460px;
+  height: auto;
+  margin: 80px auto;
+  border-radius: 10px;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  background-color: #fbfbfb;
+  padding-left: 30px;
+}
+
+input {
+  background-color: #fbfbfb;
+  width: 408px;
+  height: 40px;
+  border-radius: 5px;
+  border-style: solid;
+  border-width: 1px;
+  border-color: red;
+  margin-top: 10px;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+footer {
+  /*el footer se aplica a todas las paginas html.*/
+  background-color: red;
+  text-align: center;
+  border: 2px solid rgb(10, 7, 5);
+}
+footer .mix {
+  font-size: 20px;
+  grid-gap: 15px;
+}
+
+.inicio img {
+  max-width: 300px;
+  padding: 1rem;
+}
+
+.item {
+  background: 2px solid rgb(10, 7, 5);
+  background: red;
+  -webkit-border-radius: 100%;
+  border-radius: 100%;
+  border: 1px solid #fff;
+  font-size: 2rem;
+  color: #fff;
+  font-weight: 700;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  margin: 10px auto;
+  height: 250px;
+  width: 250px;
+}
+
+.mix {
+  font-size: 20px;
+  background-color: red;
+  text-align: center;
+  grid-gap: 15px;
+  border: 2px solid rgb(10, 7, 5);
+}
+
+/*# sourceMappingURL=main.css.map */

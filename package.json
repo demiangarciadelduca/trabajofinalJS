@@ -1,0 +1,19 @@
+{
+  "name": "tercerentrega",
+  "version": "1.0.0",
+  "description": "tercer pre entrega",
+  "main": "\u001b[A\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\"\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\u001b[1;5D\"tercer pre entrega\"",
+  "scripts": {
+    "test": "\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[D"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/demiangarciadelduca/tercerpreentrega-garciadelduca.git"
+  },
+  "author": "Garcia Del\u001b[3~\"Garcia Del DUca Demian\"",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/demiangarciadelduca/tercerpreentrega-garciadelduca/issues"
+  },
+  "homepage": "https://github.com/demiangarciadelduca/tercerpreentrega-garciadelduca#readme"
+}

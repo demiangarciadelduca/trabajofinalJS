@@ -1,0 +1,11 @@
+@mixin font-grid{
+    font-size: 20px;
+    background-color: $back-rojo;
+    text-align: $centro;
+    grid-gap: 15px;
+    border: $borde;
+}
+.mix{
+    @include font-grid;
+}
+

@@ -1,0 +1,22 @@
+function calcularPrestamo{
+    // Obtener los valores ingresados por el usuario
+    const monto = parseFloat(document.getElementById("monto").value);
+    const tasa = parseFloat(document.getElementById("tasa").value);
+    const cuotas = parseInt(document.getElementById("cuotas").value);
+    // Calcular el monto total a pagar
+    const totalPagar = monto * (1 + tasa / 100) * cuotas;
+    // Crear un  JSON con los datos del préstamo
+    const datosPrestamo = {
+      monto: monto,
+      tasa: tasa,
+      cuotas: cuotas,
+      totalPagar: totalPagar
+    };
+      // Convertir el objeto JSON a cadena
+    const jsonPrestamo = JSON.stringify(datosPrestamo);
+    // Mostrar la cadena JSON en la consola
+    console.log(jsonPrestamo);
+    // Mostrar el resultado en la página
+    const resultadoDiv = document.getElementById("resultado");
+    resultadoDiv.innerHTML = "Total a pagar: " + totalPagar.toFixed(2);
+}
